@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 
+
+Em HTML id    = CSS é # (Só pode um elemento por página de HTML)
+Em HTML clsss = CSS é . (Pode vários elementos)
+
+*/
+
+body{
+background-color: rgba(109, 202, 171, 0.849);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgba(13, 163, 13, 0.87);
+
+}
+h1#principal{
+    
+    text-align: center;
+    background-color: rgb(156, 156, 130);
+    color: azure;
+}
+
+h2{
+    color: rgba(25, 48, 48, 0.979);
+}
+.marcado{
+    color: coral;
+    font-weight: bolder;
+}
+
+.basico{
+    color: rgba(25, 48, 48, 0.979);
+} 
+
+.intermediario{
+    color: blue;
+}
+
+.avançado{
+    color: rgba(136, 6, 6, 0.795);
+} 
+
+.destaque{
+    background-color: rgba(137, 43, 226, 0.747);
+}
