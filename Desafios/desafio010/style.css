@@ -38,68 +38,29 @@ header > p {
     padding-bottom: 5px;
 }
 
-div#menu {
+div#menu  {
+    font-family: var(--fonte0);
     background-color: var(--cor4);
     text-align: left;
     padding: 5px;
     
 }
-.home {
-    background-color: var(--cor4);
-    border: none;
-    color: var(--cor2);
+
+
+nav a {
+    text-decoration: none;
+    color: var(--cor3);
     font-weight: bold;
     padding: 5px;
-
+    border-radius: 5px 5px 0 0;
 }
-.home:hover {
+
+nav a:hover{
     background-color: var(--cor2);
-    border-radius: 4px;
     color: var(--cor5);
-
+    transition-duration: 1s;
 }
 
-.noticias {
-    background-color: var(--cor4);
-    border: none;
-    color: var(--cor2);
-    font-weight: bold;
-    padding: 5px;
-
-}
-.noticias:hover{
-    background-color: var(--cor2);
-    border-radius: 4px;
-    color: var(--cor5);
-}   
-
-.curiosidades {
-    background-color: var(--cor4);
-    border: none;
-    color: var(--cor2);
-    font-weight: bold;
-    padding: 5px;
-}
-
-.curiosidades:hover{
-    background-color: var(--cor2);
-    border-radius: 4px;
-    color: var(--cor5);
-}
-
-.fale {
-    background-color: var(--cor4);
-    border: none;
-    color: var(--cor2);
-    font-weight: bold;
-    padding: 5px;
-}
-
-.fale:hover{
-    background-color: var(--cor2);
-    border-radius: 4px;
-    color: var(--cor5);
-} 
 
 
 main {
